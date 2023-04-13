@@ -17,7 +17,7 @@ PRACTICUM_TOKEN = os.getenv('YAP_TOKEN')
 TELEGRAM_TOKEN = os.getenv('TG_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TEL_ID')
 
-RETRY_PERIOD = os.getenv('RETRY_TIME', 600)
+RETRY_PERIOD = int(os.getenv('RETRY_TIME', 600))
 ENDPOINT = 'https://practicum.yandex.ru/api/user_api/homework_statuses/'
 HEADERS = {'Authorization': f'OAuth {PRACTICUM_TOKEN}'}
 
@@ -135,6 +135,14 @@ def parse_status(homework):
     return f'Изменился статус проверки работы "{homework_name}". {verdict}'
 
 
+def handle_error(bot, message):
+    """Функция отправляет сообщение об ошибке в телеграм канал."""
+    try:
+        bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=message)
+    except exceptions.TelegramError as error:
+        logging.error(f'Ошибка при отправке сообщения в Telegram: {error}')
+
+
 def main():
     """Основная логика работы бота."""
     if not check_tokens():
@@ -145,56 +153,37 @@ def main():
     try:
         bot = telegram.Bot(token=TELEGRAM_TOKEN)
     except exceptions.TelegramError as error:
-        logging.error(f'Ошибка при создании экземпляра бота: {error}')
+        handle_error(bot, f'Ошибка при создании экземпляра бота: {error}')
         sys.exit(1)
 
-    current_timestamp = int(time.time())
-    current_report = {
+    report = {
         'name': '',
         'output': ''
     }
-
-    prev_report = current_report.copy()
+    prev_report = report.copy()
 
     while True:
         try:
-            response = get_api_answer(current_timestamp)
-            current_timestamp = response.get(
-                'current_data', current_timestamp)
+            response = get_api_answer(int(time.time()) - 7 * 60 * 60)
             new_homeworks = check_response(response)
 
             if new_homeworks:
                 homework = new_homeworks[0]
-                current_report['name'] = homework.get('homework_name')
-                current_report['output'] = homework.get('status')
+                report['name'] = homework.get('homework_name')
+                report['output'] = homework.get('status')
 
             else:
                 homework = None
-                current_report['output'] = 'Нет новых статусов.'
-            if current_report != prev_report:
-                if homework is not None:
-                    send = parse_status(homework)
+                report['output'] = 'Нет новых статусов.'
 
-                else:
-                    send = current_report['output']
+            if report != prev_report:
+                send = parse_status(homework) if homework else report['output']
                 send_message(bot, send)
-                prev_report = current_report.copy()
-
             else:
                 logging.debug('Статус не поменялся')
 
-        except exceptions.NotForSending as error:
-            message = f'Сбой в работе программы: {error}'
-            logging.error(message)
-
         except Exception as error:
-            message = f'Сбой в работе программы: {error}'
-            current_report['output'] = message
-            logging.error(message)
-
-            if current_report != prev_report:
-                send_message(bot, message)
-                prev_report = current_report.copy
+            handle_error(bot, f'Сбой в работе программы: {error}')
 
         finally:
             time.sleep(RETRY_PERIOD)
