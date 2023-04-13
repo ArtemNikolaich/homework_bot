@@ -270,3 +270,441 @@
 2023-04-12 21:04:18,845, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'supergroup_chat_created': False, 'new_chat_photo': [], 'caption_entities': [], 'delete_chat_photo': False, 'chat': {'first_name': 'Артём', 'type': 'private', 'username': 'ArtyomNikolaich', 'id': 457193564}, 'text': 'Нет работ на проверке.', 'entities': [], 'date': 1681315459, 'message_id': 80, 'new_chat_members': [], 'photo': [], 'channel_chat_created': False, 'group_chat_created': False, 'from': {'is_bot': True, 'first_name': 'HomeWorkPracticum', 'id': 6268973865, 'username': 'Hw_Practic_Bot'}}
 2023-04-12 21:04:18,849, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
 2023-04-12 21:04:18,851, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Нет работ на проверке.
+2023-04-12 21:13:45,785, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 21:13:45,796, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 21:13:46,565, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 21:13:46,580, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 21:13:46,582, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-12 21:13:46,591, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-12 21:13:47,059, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'channel_chat_created': False, 'new_chat_photo': [], 'message_id': 81, 'new_chat_members': [], 'entities': [], 'supergroup_chat_created': False, 'group_chat_created': False, 'date': 1681316027, 'delete_chat_photo': False, 'text': 'Нет работ на проверке.', 'photo': [], 'caption_entities': [], 'chat': {'first_name': 'Артём', 'username': 'ArtyomNikolaich', 'type': 'private', 'id': 457193564}, 'from': {'first_name': 'HomeWorkPracticum', 'is_bot': True, 'id': 6268973865, 'username': 'Hw_Practic_Bot'}}
+2023-04-12 21:13:47,062, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-12 21:13:47,063, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Нет работ на проверке.
+2023-04-12 21:23:47,065, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 21:23:47,073, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 21:23:47,497, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 21:23:47,505, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 21:23:47,505, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 21:33:47,510, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 21:33:47,537, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 21:33:48,831, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 21:33:48,844, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 21:33:48,845, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 21:43:48,861, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 21:43:48,864, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 21:43:49,276, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 21:43:49,283, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 21:43:49,284, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 21:53:49,301, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 21:53:49,314, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 21:53:51,751, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 21:53:51,761, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 21:53:51,762, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 22:03:51,775, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 22:03:51,786, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 22:03:52,843, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 22:03:52,847, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 22:03:52,848, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 22:13:52,857, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 22:13:52,880, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 22:13:53,312, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 22:13:53,322, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 22:13:53,323, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 22:23:53,333, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 22:23:53,344, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 22:23:54,049, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 22:23:54,060, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 22:23:54,061, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 22:33:54,071, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 22:33:54,079, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 22:33:54,777, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 22:33:54,784, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 22:33:54,785, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 22:43:54,797, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 22:43:54,805, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 22:43:55,275, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 22:43:55,282, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 22:43:55,282, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 22:53:55,286, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 22:53:55,297, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 22:53:56,019, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 22:53:56,031, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 22:53:56,033, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-12 23:03:56,040, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681316025}
+2023-04-12 23:03:56,048, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-12 23:03:56,445, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681316025 HTTP/1.1" 200 42
+2023-04-12 23:03:56,450, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-12 23:03:56,452, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 08:25:53,019, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 08:25:53,027, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 08:25:53,415, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 08:25:53,415, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 08:25:53,415, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 08:25:53,415, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 08:25:53,805, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'entities': [], 'message_id': 82, 'text': 'Нет работ на проверке.', 'caption_entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'supergroup_chat_created': False, 'group_chat_created': False, 'date': 1681356354, 'new_chat_members': [], 'photo': [], 'new_chat_photo': [], 'chat': {'id': 457193564, 'username': 'ArtyomNikolaich', 'type': 'private', 'first_name': 'Артём'}, 'from': {'id': 6268973865, 'first_name': 'HomeWorkPracticum', 'is_bot': True, 'username': 'Hw_Practic_Bot'}}
+2023-04-13 08:25:53,805, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 08:25:53,805, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Нет работ на проверке.
+2023-04-13 08:35:53,812, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 08:35:53,836, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 08:35:56,444, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 08:35:56,452, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 08:35:56,452, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 08:45:56,456, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 08:45:56,464, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 08:45:56,928, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 08:45:56,928, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 08:45:56,928, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 08:55:56,942, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 08:55:56,950, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 08:55:57,733, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 08:55:57,741, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 08:55:57,741, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 09:05:57,750, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 09:05:57,758, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 09:06:00,278, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 09:06:00,286, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 09:06:00,294, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 09:16:00,300, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 09:16:00,308, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 09:16:02,809, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 09:16:02,817, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 09:16:02,817, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 09:26:02,829, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 09:26:02,829, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 09:26:03,197, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 09:26:03,205, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 09:26:03,205, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 09:36:03,206, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 09:36:03,206, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 09:36:03,582, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 09:36:03,590, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 09:36:03,598, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 09:46:03,600, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 09:46:03,616, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 09:46:06,128, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 09:46:06,144, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 09:46:06,144, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 09:56:06,148, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 09:56:06,156, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 09:56:06,548, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 09:56:06,556, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 09:56:06,564, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 10:06:06,579, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 10:06:06,587, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 10:06:07,016, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 10:06:07,024, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 10:06:07,024, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 10:16:07,026, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 10:16:07,034, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 10:16:07,506, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 10:16:07,514, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 10:16:07,514, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 10:26:07,533, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 10:26:07,541, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 10:26:07,961, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 10:26:07,969, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 10:26:07,969, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 10:36:07,972, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 10:36:07,979, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 10:36:08,492, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 10:36:08,499, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 10:36:08,499, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 10:46:08,509, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 10:46:08,532, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 10:46:11,022, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 10:46:11,044, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 10:46:11,045, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 10:56:11,056, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 10:56:11,064, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 10:56:11,393, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 10:56:11,403, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 10:56:11,405, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 11:06:11,426, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 11:06:11,436, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 11:06:13,509, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 11:06:13,518, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 11:06:13,520, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 11:16:13,529, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 11:16:13,540, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 11:16:13,898, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 11:16:13,906, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 11:16:13,906, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 11:26:13,921, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 11:26:13,932, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 11:26:14,279, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 11:26:14,294, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 11:26:14,300, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 11:36:14,306, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 11:36:14,317, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 11:36:14,739, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 11:36:14,752, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 11:36:14,753, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 11:46:14,784, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 11:46:14,796, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 11:46:15,768, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 11:46:15,794, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 11:46:15,796, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 11:56:15,819, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 11:56:15,832, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 11:56:16,973, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 11:56:16,982, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 11:56:16,983, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 12:06:16,995, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 12:06:17,002, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 12:06:17,318, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 12:06:17,325, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 12:06:17,326, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 12:16:17,328, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 12:16:17,336, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 12:16:17,742, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 12:16:17,752, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 12:16:17,752, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 12:26:17,761, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 12:26:17,769, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 12:26:18,139, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 12:26:18,146, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 12:26:18,147, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 12:36:18,158, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 12:36:18,169, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 12:36:19,463, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 12:36:19,491, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 12:36:19,501, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 12:46:19,516, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 12:46:19,532, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 12:46:22,050, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 12:46:22,063, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 12:46:22,064, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 12:56:22,071, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 12:56:22,082, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 12:56:22,790, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 12:56:22,806, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 12:56:22,808, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 13:06:22,813, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 13:06:22,835, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 13:06:23,804, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 13:06:23,813, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 13:06:23,815, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 13:16:23,824, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 13:16:23,853, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 13:16:24,348, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 13:16:24,362, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 13:16:24,363, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 13:26:24,371, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 13:26:24,383, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 13:26:24,884, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 13:26:24,888, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 13:26:24,888, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 13:36:24,896, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 13:36:24,907, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 13:36:25,744, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 13:36:25,751, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 13:36:25,752, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 13:46:25,758, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 13:46:25,768, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 13:46:28,173, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 13:46:28,180, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 13:46:28,185, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 13:56:28,195, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 13:56:28,205, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 13:56:28,563, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 13:56:28,567, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 13:56:28,568, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 14:06:28,573, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 14:06:28,582, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 14:06:29,037, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 14:06:29,067, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 14:06:29,068, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 14:16:29,072, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 14:16:29,079, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 14:16:29,479, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 14:16:29,486, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 14:16:29,487, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 14:26:29,504, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 14:26:29,517, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 14:26:29,959, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 14:26:29,971, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 14:26:29,972, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 14:36:29,987, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 14:36:29,998, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 14:36:30,393, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 14:36:30,402, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 14:36:30,404, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 14:46:30,419, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 14:46:30,427, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 14:46:30,879, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 14:46:30,885, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 14:46:30,885, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 14:56:30,897, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 14:56:30,907, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 14:56:31,314, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 14:56:31,323, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 14:56:31,325, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 15:06:31,326, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 15:06:31,337, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 15:06:31,804, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 15:06:31,814, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 15:06:31,816, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 15:16:31,829, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 15:16:31,838, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 15:16:34,303, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 15:16:34,315, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 15:16:34,317, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 15:26:34,336, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 15:26:34,360, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 15:26:34,729, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 15:26:34,739, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 15:26:34,740, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 15:36:34,770, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 15:36:34,783, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 15:36:37,264, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 15:36:37,272, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 15:36:37,273, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 15:46:37,284, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 15:46:37,290, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 15:46:39,551, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 15:46:39,557, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 15:46:39,562, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 15:56:39,594, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 15:56:39,606, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 15:56:39,954, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 15:56:39,981, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 15:56:39,982, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 16:06:39,999, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 16:06:40,008, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:06:40,405, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 16:06:40,410, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:06:40,419, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 16:16:40,422, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 16:16:40,429, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:16:42,802, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 16:16:42,809, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:16:42,810, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 16:26:42,829, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 16:26:42,844, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:26:43,209, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 16:26:43,218, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:26:43,220, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 16:36:43,241, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 16:36:43,249, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:36:43,565, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 42
+2023-04-13 16:36:43,574, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:36:43,575, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 16:46:43,587, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681356353}
+2023-04-13 16:46:43,595, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:46:44,654, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681356353 HTTP/1.1" 200 348
+2023-04-13 16:46:44,657, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:46:44,658, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 16:46:44,659, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 16:46:45,055, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'entities': [], 'message_id': 83, 'text': 'Изменился статус проверки работы "ArtemNikolaich__homework_bot.zip". Работа взята на проверку ревьюером.', 'caption_entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'supergroup_chat_created': False, 'group_chat_created': False, 'date': 1681386405, 'new_chat_members': [], 'photo': [], 'new_chat_photo': [], 'chat': {'id': 457193564, 'username': 'ArtyomNikolaich', 'type': 'private', 'first_name': 'Артём'}, 'from': {'id': 6268973865, 'first_name': 'HomeWorkPracticum', 'is_bot': True, 'username': 'Hw_Practic_Bot'}}
+2023-04-13 16:46:45,057, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 16:46:45,058, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Изменился статус проверки работы "ArtemNikolaich__homework_bot.zip". Работа взята на проверку ревьюером.
+2023-04-13 16:47:32,221, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681386452}
+2023-04-13 16:47:32,232, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:47:32,716, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681386452 HTTP/1.1" 200 42
+2023-04-13 16:47:32,724, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:47:32,725, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 16:47:32,725, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 16:47:33,081, ERROR, Файл - homework.py, Функция - send_message, Номер строки - 52, Неизвестная ошибка: Chat not found
+2023-04-13 16:48:03,700, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S'},params = {'from_date': 1681386483}
+2023-04-13 16:48:03,704, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:48:04,789, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681386483 HTTP/1.1" 401 134
+2023-04-13 16:48:04,798, ERROR, Файл - homework.py, Функция - main, Номер строки - 183, Сбой в работе программы: Не верный код ответа параметра запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S'},params = {'from_date': 1681386483}
+2023-04-13 16:48:04,809, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 16:48:04,811, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 16:48:05,257, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'delete_chat_photo': False, 'new_chat_photo': [], 'chat': {'first_name': 'Артём', 'id': 457193564, 'type': 'private', 'username': 'ArtyomNikolaich'}, 'new_chat_members': [], 'date': 1681386485, 'photo': [], 'caption_entities': [], 'entities': [{'type': 'url', 'length': 67, 'offset': 71}], 'channel_chat_created': False, 'supergroup_chat_created': False, 'message_id': 84, 'group_chat_created': False, 'text': "Сбой в работе программы: Не верный код ответа параметра запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S'},params = {'from_date': 1681386483}", 'from': {'first_name': 'HomeWorkPracticum', 'is_bot': True, 'username': 'Hw_Practic_Bot', 'id': 6268973865}}
+2023-04-13 16:48:05,265, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 16:48:05,266, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Сбой в работе программы: Не верный код ответа параметра запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S'},params = {'from_date': 1681386483}
+2023-04-13 16:48:29,960, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681386509}
+2023-04-13 16:48:29,964, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:48:30,283, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681386509 HTTP/1.1" 200 42
+2023-04-13 16:48:30,290, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:48:30,291, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 16:48:30,292, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 16:48:31,991, ERROR, Файл - homework.py, Функция - send_message, Номер строки - 52, Неизвестная ошибка: Unauthorized
+2023-04-13 16:49:16,937, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681386556}
+2023-04-13 16:49:16,944, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:49:17,265, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681386556 HTTP/1.1" 200 42
+2023-04-13 16:49:17,283, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:49:17,284, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 16:49:17,285, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 16:49:17,723, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'new_chat_members': [], 'caption_entities': [], 'text': 'Нет работ на проверке.', 'message_id': 85, 'supergroup_chat_created': False, 'date': 1681386557, 'group_chat_created': False, 'new_chat_photo': [], 'photo': [], 'chat': {'type': 'private', 'id': 457193564, 'username': 'ArtyomNikolaich', 'first_name': 'Артём'}, 'entities': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'from': {'is_bot': True, 'id': 6268973865, 'username': 'Hw_Practic_Bot', 'first_name': 'HomeWorkPracticum'}}
+2023-04-13 16:49:17,726, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 16:49:17,727, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Нет работ на проверке.
+2023-04-13 16:50:05,562, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681386605}
+2023-04-13 16:50:05,569, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 16:50:05,927, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681386605 HTTP/1.1" 200 42
+2023-04-13 16:50:05,939, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 16:50:05,940, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 16:50:05,941, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 16:50:06,351, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'message_id': 86, 'entities': [], 'date': 1681386606, 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'supergroup_chat_created': False, 'text': 'Нет новых статусов.', 'new_chat_members': [], 'photo': [], 'chat': {'first_name': 'Артём', 'type': 'private', 'username': 'ArtyomNikolaich', 'id': 457193564}, 'from': {'is_bot': True, 'username': 'Hw_Practic_Bot', 'id': 6268973865, 'first_name': 'HomeWorkPracticum'}}
+2023-04-13 16:50:06,354, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 16:50:06,355, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Нет новых статусов.
+2023-04-13 17:00:06,359, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681386605}
+2023-04-13 17:00:06,374, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:00:11,685, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681386605 HTTP/1.1" 200 347
+2023-04-13 17:00:11,703, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 17:00:11,704, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 17:00:11,705, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 17:00:11,878, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'message_id': 87, 'entities': [], 'date': 1681387212, 'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'supergroup_chat_created': False, 'text': 'Изменился статус проверки работы "ArtemNikolaich__homework_bot.zip". Работа проверена: у ревьюера есть замечания.', 'new_chat_members': [], 'photo': [], 'chat': {'first_name': 'Артём', 'type': 'private', 'username': 'ArtyomNikolaich', 'id': 457193564}, 'from': {'is_bot': True, 'username': 'Hw_Practic_Bot', 'id': 6268973865, 'first_name': 'HomeWorkPracticum'}}
+2023-04-13 17:00:11,883, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 17:00:11,884, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Изменился статус проверки работы "ArtemNikolaich__homework_bot.zip". Работа проверена: у ревьюера есть замечания.
+2023-04-13 17:10:11,906, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681386605}
+2023-04-13 17:10:11,916, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:10:12,263, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681386605 HTTP/1.1" 200 347
+2023-04-13 17:10:12,273, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 17:10:12,286, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 17:12:30,467, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681387950}
+2023-04-13 17:12:30,472, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:12:30,783, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681387950 HTTP/1.1" 200 42
+2023-04-13 17:12:30,787, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 17:12:30,788, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 17:12:30,789, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 17:12:31,148, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'delete_chat_photo': False, 'entities': [], 'text': 'Нет новых статусов.', 'group_chat_created': False, 'date': 1681387951, 'new_chat_members': [], 'supergroup_chat_created': False, 'message_id': 88, 'caption_entities': [], 'photo': [], 'new_chat_photo': [], 'channel_chat_created': False, 'chat': {'type': 'private', 'username': 'ArtyomNikolaich', 'first_name': 'Артём', 'id': 457193564}, 'from': {'username': 'Hw_Practic_Bot', 'is_bot': True, 'id': 6268973865, 'first_name': 'HomeWorkPracticum'}}
+2023-04-13 17:12:31,152, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 17:12:31,153, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Нет новых статусов.
+2023-04-13 17:13:43,439, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681388023}
+2023-04-13 17:13:43,445, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:13:43,754, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681388023 HTTP/1.1" 200 42
+2023-04-13 17:13:43,768, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 17:13:43,776, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка
+2023-04-13 17:13:43,777, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 17:13:44,195, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'caption_entities': [], 'channel_chat_created': False, 'group_chat_created': False, 'text': 'Нет новых статусов.', 'photo': [], 'date': 1681388024, 'delete_chat_photo': False, 'new_chat_members': [], 'message_id': 89, 'new_chat_photo': [], 'entities': [], 'supergroup_chat_created': False, 'chat': {'id': 457193564, 'type': 'private', 'username': 'ArtyomNikolaich', 'first_name': 'Артём'}, 'from': {'is_bot': True, 'id': 6268973865, 'username': 'Hw_Practic_Bot', 'first_name': 'HomeWorkPracticum'}}
+2023-04-13 17:13:44,199, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 17:13:44,200, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 46, Сообщение отправлено Нет новых статусов.
+2023-04-13 17:23:44,214, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 64, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681388023}
+2023-04-13 17:23:44,223, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:23:44,579, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681388023 HTTP/1.1" 200 42
+2023-04-13 17:23:44,589, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 91, Проверка
+2023-04-13 17:23:44,591, DEBUG, Файл - homework.py, Функция - main, Номер строки - 174, Статус не поменялся
+2023-04-13 17:24:28,155, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 65, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681388668}
+2023-04-13 17:24:28,160, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:24:28,485, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681388668 HTTP/1.1" 200 42
+2023-04-13 17:24:28,494, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 92, Проверка
+2023-04-13 17:24:28,495, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка сообщения "Нет новых статусов." в Telegram чат с ID 457193564
+2023-04-13 17:24:28,499, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 17:24:28,895, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'chat': {'type': 'private', 'first_name': 'Артём', 'username': 'ArtyomNikolaich', 'id': 457193564}, 'group_chat_created': False, 'caption_entities': [], 'channel_chat_created': False, 'new_chat_photo': [], 'date': 1681388669, 'text': 'Нет новых статусов.', 'delete_chat_photo': False, 'message_id': 90, 'photo': [], 'supergroup_chat_created': False, 'entities': [], 'new_chat_members': [], 'from': {'id': 6268973865, 'username': 'Hw_Practic_Bot', 'first_name': 'HomeWorkPracticum', 'is_bot': True}}
+2023-04-13 17:24:28,910, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 17:24:28,911, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 47, Сообщение отправлено Нет новых статусов.
+2023-04-13 17:34:28,920, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 65, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681388668}
+2023-04-13 17:34:28,929, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:34:29,304, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681388668 HTTP/1.1" 200 42
+2023-04-13 17:34:29,313, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 92, Проверка
+2023-04-13 17:34:29,315, DEBUG, Файл - homework.py, Функция - main, Номер строки - 175, Статус не поменялся
+2023-04-13 17:44:29,329, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 65, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681388668}
+2023-04-13 17:44:29,339, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:44:29,817, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681388668 HTTP/1.1" 200 42
+2023-04-13 17:44:29,827, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 92, Проверка
+2023-04-13 17:44:29,828, DEBUG, Файл - homework.py, Функция - main, Номер строки - 175, Статус не поменялся
+2023-04-13 17:54:29,844, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 65, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681388668}
+2023-04-13 17:54:29,853, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 17:54:30,286, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681388668 HTTP/1.1" 200 42
+2023-04-13 17:54:30,296, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 92, Проверка
+2023-04-13 17:54:30,297, DEBUG, Файл - homework.py, Функция - main, Номер строки - 175, Статус не поменялся
+2023-04-13 18:00:08,182, INFO, Файл - homework.py, Функция - get_api_answer, Номер строки - 69, Начало запроса: url = https://practicum.yandex.ru/api/user_api/homework_statuses/,headers = {'Authorization': 'OAuth y0_AgAAAABlxYo-AAYckQAAAADgT9iFyWFjXLZqQ-mpBSw6L_Re78S3ZbU'},params = {'from_date': 1681390808}
+2023-04-13 18:00:08,186, DEBUG, Файл - connectionpool.py, Функция - _new_conn, Номер строки - 1003, Starting new HTTPS connection (1): practicum.yandex.ru:443
+2023-04-13 18:00:08,531, DEBUG, Файл - connectionpool.py, Функция - _make_request, Номер строки - 456, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1681390808 HTTP/1.1" 200 42
+2023-04-13 18:00:08,543, DEBUG, Файл - homework.py, Функция - check_response, Номер строки - 96, Проверка
+2023-04-13 18:00:08,544, INFO, Файл - homework.py, Функция - send_message, Номер строки - 40, Отправка сообщения "Нет новых статусов." в Telegram чат с ID 457193564
+2023-04-13 18:00:08,545, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 129, Entering: send_message
+2023-04-13 18:00:08,965, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 131, {'message_id': 91, 'caption_entities': [], 'new_chat_members': [], 'entities': [], 'group_chat_created': False, 'new_chat_photo': [], 'chat': {'first_name': 'Артём', 'username': 'ArtyomNikolaich', 'type': 'private', 'id': 457193564}, 'date': 1681390809, 'photo': [], 'channel_chat_created': False, 'text': 'Нет новых статусов.', 'supergroup_chat_created': False, 'delete_chat_photo': False, 'from': {'username': 'Hw_Practic_Bot', 'id': 6268973865, 'is_bot': True, 'first_name': 'HomeWorkPracticum'}}
+2023-04-13 18:00:08,968, DEBUG, Файл - bot.py, Функция - decorator, Номер строки - 132, Exiting: send_message
+2023-04-13 18:00:08,969, DEBUG, Файл - homework.py, Функция - send_message, Номер строки - 47, Сообщение "Нет новых статусов." отправлено в Telegram чат с ID 457193564

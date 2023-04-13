@@ -17,7 +17,7 @@ PRACTICUM_TOKEN = os.getenv('YAP_TOKEN')
 TELEGRAM_TOKEN = os.getenv('TG_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TEL_ID')
 
-RETRY_PERIOD = 600
+RETRY_PERIOD = os.getenv('RETRY_TIME', 600)
 ENDPOINT = 'https://practicum.yandex.ru/api/user_api/homework_statuses/'
 HEADERS = {'Authorization': f'OAuth {PRACTICUM_TOKEN}'}
 
@@ -37,19 +37,24 @@ def check_tokens():
 def send_message(bot, message):
     """Отправляет сообщение в Telegram чат."""
     try:
-        logging.info('Отправка')
+        logging.info(f'Отправка сообщения "{message}" в '
+                     f'Telegram чат с ID {TELEGRAM_CHAT_ID}')
         bot.send_message(
             chat_id=TELEGRAM_CHAT_ID,
             text=message,
         )
 
-        logging.debug(f'Сообщение отправлено {message}')
+        logging.debug(f'Сообщение "{message}" отправлено в '
+                      f'Telegram чат с ID {TELEGRAM_CHAT_ID}')
 
     except exceptions.TelegramError as error:
-        logging.error(f'Ошибка при отправке сообщения: {error}')
+        logging.error(f'Ошибка при отправке сообщения "{message}" в '
+                      f'Telegram чат с ID {TELEGRAM_CHAT_ID}: {error}')
 
     except Exception as error:
-        logging.error(f'Неизвестная ошибка: {error}')
+        logging.error(f'Неизвестная ошибка при отправке '
+                      f'сообщения "{message}" в Telegram чат '
+                      f'с ID {TELEGRAM_CHAT_ID}: {error}')
 
 
 def get_api_answer(timestamp):
@@ -137,7 +142,12 @@ def main():
                          ' переменных окружения')
         sys.exit('Отсутсвуют переменные окружения')
 
-    bot = telegram.Bot(token=TELEGRAM_TOKEN)
+    try:
+        bot = telegram.Bot(token=TELEGRAM_TOKEN)
+    except exceptions.TelegramError as error:
+        logging.error(f'Ошибка при создании экземпляра бота: {error}')
+        sys.exit(1)
+
     current_timestamp = int(time.time())
     current_report = {
         'name': '',
@@ -160,7 +170,7 @@ def main():
 
             else:
                 homework = None
-                current_report['output'] = 'Нет работ на проверке.'
+                current_report['output'] = 'Нет новых статусов.'
             if current_report != prev_report:
                 if homework is not None:
                     send = parse_status(homework)
