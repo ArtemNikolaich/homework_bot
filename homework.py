@@ -164,7 +164,7 @@ def main():
 
     while True:
         try:
-            response = get_api_answer(int(time.time()) - 7 * 60 * 60)
+            response = get_api_answer(int(time.time()))
             new_homeworks = check_response(response)
 
             if new_homeworks:
@@ -179,6 +179,7 @@ def main():
             if report != prev_report:
                 send = parse_status(homework) if homework else report['output']
                 send_message(bot, send)
+                prev_report = report.copy()
             else:
                 logging.debug('Статус не поменялся')
 
